@@ -1,0 +1,270 @@
+@font-face {
+  font-family: "allison";
+  src: url(./font/Allison-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 100%;
+}
+header {
+  min-height: 123vh;
+  background: url(./images/header.jpeg);
+  background-size: cover;
+}
+header .text-cont {
+  display: flex;
+  gap: 40px;
+}
+.head-text h1 {
+  font-size: 3rem;
+  color: #fff;
+  font-style: italic;
+  font-weight: 600;
+  padding-top: 12em;
+  padding-left: 5em;
+}
+.text-cont div:last-of-type {
+  margin-top: 33em;
+}
+.small-text {
+  width: 60%;
+}
+.small-text .toptext {
+  padding: 2em;
+}
+.small-text .toptext--background {
+  background: #fff;
+}
+section .first-part,
+.second-part,
+.fourth-part {
+  background: #c7a3a9;
+}
+.first-part p:first-child {
+  line-height: 1.6;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 2px;
+  padding-top: 4em;
+  padding-left: 15em;
+}
+.first-part p span {
+  font-size: 2rem;
+}
+.first-part p:last-child {
+  padding-left: 20.5em;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  color: #fff;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+section .gallery-part,
+.gallery-last {
+  display: flex;
+}
+.gallery-part img,
+.gallery-last img {
+  width: 33.3%;
+  height: 60vh;
+}
+/* Coming soon container */
+section .second-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-part div:first-of-type {
+  margin-top: 3em;
+}
+.second-part .upcoming {
+  color: #fff;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+.second-part .under {
+  color: aliceblue;
+  font-size: 1rem;
+  padding-top: 1em;
+}
+.second-part div:last-of-type {
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
+.update input[type="text"],
+input[type="email"],
+button[type="submit"] {
+  padding: 12px;
+  border-radius: 20px;
+  border: none;
+}
+button[type="submit"] {
+  background: black;
+  color: #fff;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+button[type="submit"]:focus {
+  outline: none;
+}
+/* Article on image */
+section .third-part {
+  display: flex;
+  gap: 50px;
+  height: 90vh;
+}
+.third-part .artic-img {
+  margin-top: 3em;
+}
+.artic-img img {
+  width: 300px;
+  /* height: 400px; */
+  margin-left: 10em;
+}
+.design {
+  font-family: "allison";
+  color: #ca6576;
+  font-size: 2rem;
+}
+.decor-text {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+.decor-text p:first-child {
+  text-align: justify;
+  line-height: 1.5;
+}
+/* Collection catalogue */
+section .fourth-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fourth-part p {
+  color: #fff;
+  font-style: italic;
+  font-size: 2rem;
+  padding-top: 2em;
+  padding-bottom: 0.5em;
+}
+.fourth-part .collection-img {
+  display: flex;
+  margin-left: 10em;
+}
+.collection-img img {
+  width: 20%;
+  height: 50vh;
+}
+.fourth-part .fa-arrow-right {
+  color: #fff;
+  padding-top: 0.5em;
+  padding-bottom: 2em;
+  font-size: 1.5rem;
+}
+/* Sample product */
+.fifth-part .sneakers {
+  display: flex;
+  gap: 50px;
+  margin-top: 2em;
+  margin-left: 9em;
+}
+.sneakers img {
+  padding-left: 20px;
+  height: 50vh;
+}
+.sneakers .sample-product {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sample-product .samp-text {
+  font-size: 2rem;
+}
+.sample-product .amount {
+  font-weight: 900;
+  padding-top: 1em;
+  padding-left: 0.5em;
+}
+.sample-product .more-text {
+  padding-top: 1em;
+  line-height: 1.5;
+}
+.sample-product button[type="submit"] {
+  margin-top: 2em;
+  padding: 1em;
+  width: 40%;
+}
+/* Subscription */
+section > .last-part {
+  margin-top: 4em;
+  display: flex;
+  gap: 30px;
+}
+.last-part img {
+  width: 570px;
+  height: 80vh;
+}
+.subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.subscription .rod {
+  width: 400px;
+  height: 10px;
+  background: #c7a3a9;
+}
+.subscription .sub-text {
+  font-family: "allison";
+  font-size: 5rem;
+  font-weight: 600;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+  font-size: 22px;
+}
+.sub-form input[type="email"],
+input[type="text"] {
+  border: 1px solid #a8a6a7;
+  border-radius: 0;
+}
+.sub-form .input-sub {
+  margin-top: 2em;
+  display: flex;
+  gap: 15px;
+}
+.sub-form button[type="submit"] {
+  margin-top: 1.5em;
+  margin-left: 40%;
+  width: 15%;
+}
+.subscription .sample-text {
+  font-size: 0.7rem;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
